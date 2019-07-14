@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-weapp-auth',
-    version='1.0.0',
+    version='1.0.5',
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',
@@ -19,6 +19,10 @@ setup(
     url='https://blog.mimimi.fun/',
     author='Meowzz95',
     author_email='info@mimimi.fun',
+    install_requires=[
+          'requests',
+          'pycrypto'
+    ],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
