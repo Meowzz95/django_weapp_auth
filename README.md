@@ -1,1 +1,0 @@
-django-weapp-auth
