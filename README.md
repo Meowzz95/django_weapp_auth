@@ -1,4 +1,4 @@
-#Weapp Auth
+# Weapp Auth
 
 Weapp auth is a Django app that helps to handle wechat mini program login and user info updating logic.
 
